@@ -22,7 +22,7 @@
     align-items: center;
     border: 1px solid grey;
     margin: 1rem;
-    max-width: 600px;  
+    max-width: 37.5rem;  
     
 }
 
@@ -32,7 +32,7 @@
     flex-wrap: nowrap;
     margin: 0.5rem;
     padding: 0.5rem;
-    max-width: 550px;
+    max-width: 34.5rem;
     border-radius: 0.3rem;
     width: 90%;
     
