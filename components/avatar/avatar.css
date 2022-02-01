@@ -18,27 +18,27 @@
   margin: 1rem;
 }
 
-.xs{
+.avatar-xs{
     width: 2rem;
     height: 2rem;
 }
 
-.sm{
+.avatar-sm{
     width: 3rem;
     height: 3rem;
 }
 
-.md{
+.avatar-md{
     width: 4rem;
     height: 4rem;
 }
 
-.lg{
+.avatar-lg{
     width: 5rem;
     height: 5rem;
 }
 
-.xl{
+.avatar-xl{
     width: 6rem;
     height: 6rem;
 }
