@@ -1,0 +1,53 @@
+.badge-icon-group{
+    padding: 1rem;
+    height: 10vh;    
+}
+
+.badge{
+    position: relative;
+}
+
+.badge-icon{
+    position: absolute;
+    border-radius: 50%;
+    background-color: var(--white);
+}
+
+.badge-icon-sm{
+    color: var(--green);
+    right: 1.125rem;
+    bottom: 0.75rem;
+    font-size: 1rem;    
+}
+
+.badge-icon-xl{
+    color: var(--red);
+    right: 1.25rem;
+    bottom: 1rem;   
+}
+
+.badge-icon-lg{
+    color: var(--black);    
+    right: 0.55rem;
+    bottom: 0.625rem;
+    font-size: 1.3rem;
+}
+
+.badge-icon-md{
+    color: var(--red);
+    right: 1.125rem;
+    bottom: 0.75rem;
+    font-size: 1.2rem;    
+}
+
+.notification{
+    color: var(--white);
+    background-color: var(--red);
+    width: 1rem;
+    height: 1rem;
+    text-align: center;
+    top: -0.5rem;
+    left: 0.813rem;
+    padding: 0.05rem;
+    font-size: 0.8rem;
+}
