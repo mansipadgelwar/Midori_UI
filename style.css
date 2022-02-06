@@ -12,6 +12,10 @@
     --alert-success-outline: #468367;
     --alert-warning-outline: #f4a653;
     --alert-info-outline: #4f91b5;
+    --red: red;
+    --green: rgb(72, 193, 72);
+    --white: white;
+    --black: black;
 }
 
 *{
