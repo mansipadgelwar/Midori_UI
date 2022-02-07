@@ -14,21 +14,22 @@
         <input class="input input-error" type="text" placeholder="Error input"> 
         <input class="input" type="text" placeholder="Disabled input" disabled/>
         <input class="input" type="text" placeholder="Readonly input" readonly/>
-      </div>
+    </div>
     
       <div class="container-input">
          <form action="">
                 <label for="email">Email: </label>
-                <div class="input-icon icons-left input-warning">
+                <div class="input-icon icons-left invalid-input">
                   <span class="material-icons">email</span> 
                   <input class="input" type="email" id="email" name="email" placeholder="Enter Email ID"/>
-                  <p class="warning-msg">Enter a valid email address.</p>  
+                  <p class="msg warning-msg">Enter a valid email address.</p>  
                 </div>
   
                 <label for="password">Password: </label>
-                <div class="input-icon icons-left">
+                <div class="input-icon icons-left valid-input">
                   <span class="material-icons">lock</span> 
                   <input class="input" type="password" id="password" name="password" placeholder="Enter Password"/> 
+                  <p class="msg success-msg">Success</p> 
                 </div>
          </form>
       </div>
