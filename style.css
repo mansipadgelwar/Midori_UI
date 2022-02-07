@@ -2,6 +2,7 @@
 @import '/components/avatar/avatar.css';
 @import '/components/badge/badge.css';
 @import '/components/image/image.css';
+@import '/components/input/input.css';
 
 :root{
     --alert-error: #f5c0c6;
