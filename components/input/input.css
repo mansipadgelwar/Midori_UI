@@ -27,13 +27,13 @@
     border: var(--input-error-border);
 }
 
-.input-icon.icons-left span{
+.input-icon span{
     position: absolute;
     left: 1.25rem;
     top: 0.688rem;
 }
 
-.input-icon.icons-left .input{
+.input-icon .input{
     padding-left: 2rem;
     margin-bottom: 0.3rem;
     margin-top: 0.3rem;   
