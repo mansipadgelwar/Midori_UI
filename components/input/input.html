@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"> 
+    <link rel="stylesheet" href="/style.css">
+    <title> input | component</title>
+</head>
+<body>
+    <div class="container-input">
+        <input class="input" type="text" placeholder="Text Input"/>  
+        <input class="input input-focus"type="text" placeholder="Focused input">
+        <input class="input input-error" type="text" placeholder="Error input"> 
+        <input class="input" type="text" placeholder="Disabled input" disabled/>
+        <input class="input" type="text" placeholder="Readonly input" readonly/>
+    </div>
+    
+      <div class="container-input">
+         <form action="">
+                <label for="email" class="input-label">Email: </label>
+                <div class="input-icon icons-left invalid-input">
+                  <span class="material-icons">email</span> 
+                  <input class="input input-error" type="email" id="email" name="email" placeholder="Enter Email ID"/>
+                  <p class="msg warning-msg">Enter a valid email address.</p>  
+                </div>
+         </form>
+        </div>
+  
+        <div class="container-input">
+            <form action="">
+                <label for="password" class="input-label">Password: </label>
+                <div class="input-icon icons-left valid-input">
+                  <span class="material-icons">lock</span> 
+                  <input class="input input-focus" type="password" id="password" name="password" placeholder="Enter Password"/> 
+                  <p class="msg success-msg">Success</p> 
+                </div>
+         </form>
+      </div>
+</body>
+</html>
