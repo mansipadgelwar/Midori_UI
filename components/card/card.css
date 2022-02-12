@@ -1,4 +1,5 @@
 .container-card{
+    margin: 2rem;
     display: flex;
     flex-direction: row;
     gap: 3.125rem;
