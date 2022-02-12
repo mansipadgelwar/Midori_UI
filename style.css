@@ -6,6 +6,7 @@
 @import '/components/image/image.css';
 @import '/components/input/input.css';
 @import '/components/button/button.css';
+@import '/components/card/card.css';
 
 :root{
     --alert-error: #f5c0c6;
