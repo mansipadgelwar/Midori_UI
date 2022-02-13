@@ -7,6 +7,8 @@
 @import '/components/input/input.css';
 @import '/components/button/button.css';
 
+@import '/components/text-utility/utility.css';
+
 :root{
     --alert-error: #f5c0c6;
     --alert-success: #d0f0e1;
