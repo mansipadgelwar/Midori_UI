@@ -8,6 +8,7 @@
 @import '/components/button/button.css';
 
 @import '/components/text-utility/utility.css';
+@import '/components/slider/slider.css';
 
 :root{
     --alert-error: #f5c0c6;
