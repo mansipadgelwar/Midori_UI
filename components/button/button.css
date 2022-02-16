@@ -9,7 +9,7 @@
 
 .btn{
     cursor: pointer;
-    padding: 0.7rem;
+    padding: 0.5rem;
     border-radius: 0.2rem;
     font-weight: bold;
     font-size: 1rem;
@@ -27,6 +27,7 @@
 .btn-cta{
     color: var(--white);
     background-color: var(--primary-color);
+    border: 0.125rem solid var(--primary-color);
 }
 
 .btn-cta:hover{
@@ -36,6 +37,7 @@
 .btn-secondary{
     color: var(--white);
     background-color: var(--raisin-black);
+    border: 0.125rem solid var(--raisin-black);
 }
 
 .btn-secondary:hover{
