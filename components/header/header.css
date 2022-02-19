@@ -1,0 +1,42 @@
+.header{
+    
+    height: 10vh;
+    width: 100%;    
+    border: 1px solid black;
+    
+}
+
+.header-items{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    
+}
+/* 
+.logo{
+    flex-grow: 1;
+}
+
+input{
+    
+} */
+
+
+
+
+
+.sub-menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    
+}
+
+.header-icon{
+    padding-left: 0.5rem;
+    
+}
