@@ -12,6 +12,7 @@
 @import '/components/text-utility/utility.css';
 @import '/components/slider/slider.css';
 @import '/css/home.css';
+@import '/documentation/documentation.css';
 
 :root{
     --alert-error: #f5c0c6;
