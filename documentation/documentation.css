@@ -67,89 +67,79 @@
     padding: 2.5rem 0;
 }
 
-
-
 .side_bar{    
-width: 250px; 
-/* height: 100%; */
-position: sticky;
-overflow-y: auto;
-top: 0;
-background-color: white;
-text-align: center;
-height: calc(100vh - 2rem);
-color: black; 
+    width: 250px; 
+    position: sticky;
+    overflow-y: auto;
+    top: 0;
+    background-color: white;
+    text-align: center;
+    height: calc(100vh - 2rem);
+    color: black; 
 }
 
 
 .sidebar_list{
-display: flex;
-flex-direction: column;
-flex-wrap: nowrap;
-justify-content: center;
-align-items: center;
-align-content: center;
-list-style-type: none;  
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    list-style-type: none;  
 }
 
 .side_links{
-padding: 0.7rem;
-width: 140px;
-border-radius: 0.3rem;
-font-size: 1.5rem; 
-text-align: center;   
+    padding: 0.7rem;
+    width: 140px;
+    border-radius: 0.3rem;
+    font-size: 1.1rem; 
+    text-align: left;  
 }
 
 .side_links > a{    
-color: black;
-text-decoration: none; 
+    color: black;
+    text-decoration: none;
 }
 
 .side_links:hover{
-background-color: pink;
+    background-color: var(--grey);
 }
 
 
 .main_body{
-width: 100%; 
- 
+    width: 100%;  
+    margin-left: 10px;
 }
 
 .component-container{
-display: flex;
-flex-direction: row;
-flex-wrap: wrap; 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
 }
-
 
 .description-container{
-display: flex;
-flex-direction: column;
-flex-wrap: nowrap;
-justify-content: center;
-gap: 20px;
-padding: 2rem 1rem;
-border-bottom: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 2rem 1rem;
+    border-bottom: 1px solid var(--hover-grey);
 }
-
-/* .code{   
-   margin-top: 3rem;  
-   width: 100%;
-   display: flex;
-    align-items: normal;
-    justify-content: normal;
-
-}  */
 
 .code-snippet-display{
     box-sizing: border-box;
-    width: 100%;
-    padding: 1rem 0;
-    background-color: #FAFAFA;
-   
-    overflow: auto;
+    padding: 1rem;
+    background-color: var(--white);   
 }
+
+
 .code-snippet-display iframe{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    max-width: 700px;
     width: 100%;
+    max-height: 40vh;
     border: none;   
+
 }
