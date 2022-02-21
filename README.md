@@ -18,6 +18,9 @@
 9. Slider
 10. Text Utility
 
-# Preview
+## Preview
+![Home Page](/assets/home_page.png)
+![Documentation Page](/assets/documentation_page.png)
+
 
 
