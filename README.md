@@ -2,7 +2,7 @@
 #### A simple, modular and accessible component library that gives you the building blocks you need to build your web interfaces.
 
 ## Installing Midori UI
-#### Copy-paste the stylesheet <link> into your <head> before all other stylesheets to load our CSS.
+#### Copy-paste the stylesheet `<link>` into your `<head>` before all other stylesheets to load our CSS.
 ```
 <link rel="stylesheet" href="https://midori-ui.netlify.app/style.css">
 ```
