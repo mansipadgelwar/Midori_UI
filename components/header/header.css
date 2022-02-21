@@ -1,0 +1,81 @@
+.header{    
+    height: 10vh;
+    width: 100%;    
+    border: 1px solid black;    
+}
+
+.header-items{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;    
+}
+
+.sub-menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;    
+}
+
+.header-icon{
+    padding-left: 0.5rem;    
+}
+
+.navigation {
+    width: 100%;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    padding: 1rem 1.5rem 0;
+}
+
+.navigation .link {
+    color: var(--black);
+    font-weight: bold;
+}
+
+.nav-pills{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.nav-brand {
+    font-family: 'Comforter', cursive;
+    font-weight: bolder;
+    letter-spacing: 0.1rem;
+    font-size: 2.8rem;
+    color: var(--primary-color);
+    
+}
+
+.navigation .nav-brand{
+    flex-grow: 1;
+    color: var(--black);
+}
+
+.navigation .link-active {
+    font-weight: bolder;
+    background-color: var(--grey);
+    padding: 0.7rem;
+    border-radius: 0.3rem;
+}
+
+.link {
+    box-sizing: border-box;
+    text-decoration: none;
+    padding: 0 1rem;   
+}
+
+.list-non-bullet {
+    list-style: none;
+}
+
+.list-item-inline {
+    display: inline;
+}
