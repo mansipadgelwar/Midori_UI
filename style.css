@@ -12,6 +12,7 @@
 @import '/components/text-utility/utility.css';
 @import '/components/slider/slider.css';
 @import '/css/home.css';
+@import '/documentation/documentation.css';
 @import '/components/header/header.css';
 
 :root{
