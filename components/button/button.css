@@ -1,0 +1,93 @@
+.btn-container{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 37.5rem;
+    width: 100%;
+    margin: 2rem;
+}
+
+.btn{
+    cursor: pointer;
+    padding: 0.65rem;
+    border-radius: 0.2rem;
+    font-weight: bold;
+    font-size: 1rem;
+    border: none;
+    letter-spacing: 0.063rem;
+    margin: 1rem;
+    box-shadow: var(--btn-box-shadow);
+    background-color: var(--white);
+}
+
+.btn:hover{
+    background-color: var(--hover-grey);
+}
+
+.btn-cta{
+    color: var(--white);
+    background-color: var(--primary-color);
+    border: 0.125rem solid var(--primary-color);
+}
+
+.btn-cta:hover{
+    background-color: var(--light-primary-color);
+}
+
+.btn-secondary{
+    color: var(--white);
+    background-color: var(--raisin-black);
+    border: 0.125rem solid var(--raisin-black);
+}
+
+.btn-secondary:hover{
+    background-color: var(--light-raisin-black);
+}
+
+.btn-icon{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    gap: 0.313rem;
+}
+
+.btn-floating{
+    border-radius: 50%;
+    padding: 1.1rem;
+}
+
+.btn-primary-outline{
+    border: 0.125rem solid var(--primary-color);
+    color: var(--primary-color)
+}
+
+.btn-primary-outline:hover{
+    background-color: var(--primary-color);
+    color: var(--white);
+}
+
+.btn-secondary-outline{
+    border: 0.125rem solid var(--raisin-black);
+    color: var(--raisin-black);
+}
+
+.btn-secondary-outline:hover{
+    background-color: var(--raisin-black);
+    color: var(--white);
+}
+
+.btn-link{
+    color: black;
+    margin: 1rem;
+    text-decoration: none;
+}
+
+.btn-text{
+    border: none;
+    box-shadow: none;
+}
+
+.btn-text:hover{
+    background-color: var(--hover-grey);
+}
