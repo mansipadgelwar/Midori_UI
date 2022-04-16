@@ -1,0 +1,12 @@
+.rating-container{
+    display: flex;
+    justify-content: space-between;
+    width: 35px;
+    align-items: center;
+    border: 1px solid #ffcd3c; 
+}
+ 
+.rating-icon{
+    color: #ffcd3c;
+    font-size: 0.1rem;
+} 
