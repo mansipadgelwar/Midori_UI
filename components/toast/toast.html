@@ -8,35 +8,35 @@
     <title>toast | component</title>
 </head>
 <body>
+  <div class="toast-container">
     <div class="toast toast-error">
         <span class="material-icons-outlined">error_outline</span>
         <p> oops ! You are not logged in.</p>
-        <button>
-            <span class="material-icons">
-            close
-            </span>
+        <button class="toast-dismiss">
+            <span class="material-icons">close</span>
         </button>
       </div>
       <div class="toast toast-success">
         <span class="material-icons-outlined">check_circle</span>
-        <p>Success !</p>
-        <button>
+        <p>Success ! Product added.</p>
+        <button class="toast-dismiss">
             <span class="material-icons">close</span>
         </button>
       </div>
       <div class="toast toast-warning">
         <span class="material-icons-outlined">report_problem</span>
         <p>Seems your coupon is about to expire.</p>
-        <button>
+        <button class="toast-dismiss">
            <span class="material-icons">close</span>
         </button>
       </div>
       <div class="toast toast-info">
         <span class="material-icons-outlined">info</span>
         <p>Product is currently out of stock.</p>
-        <button>
+        <button class="toast-dismiss">
             <span class="material-icons">close</span>
         </button>
       </div>
+    </div>
 </body>
 </html>
