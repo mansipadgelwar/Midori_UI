@@ -1,0 +1,15 @@
+.stacked_list
+{	
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin: 1rem;
+	max-width: 15.65rem;
+	border-radius: 0.4rem;
+	background-color: var(--hover-grey);
+}
+
+.simple_list
+{
+	margin: 1rem;
+}
