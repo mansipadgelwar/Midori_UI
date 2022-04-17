@@ -16,6 +16,7 @@
 @import '/components/header/header.css';
 @import '/components/list/list.css';
 @import '/components//toast/toast.css';
+@import '/components/rating/rating.css';
 
 :root{
     --alert-error: #f5c0c6;
@@ -39,6 +40,7 @@
     --grey: rgb(187, 187, 187);
     --hover-grey: rgb(230, 230, 230);
     --btn-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    --mango-yellow: #ffcd3c;
 }
 
 *{
