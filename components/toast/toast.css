@@ -1,0 +1,66 @@
+.toast-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.toast{
+    position: relative;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    max-width: 20rem;
+    border-radius: 0.3rem;
+}
+
+.toast-warning{
+ background-color: var(--alert-warning);
+}
+
+.toast-warning > span:first-child{
+    color: var(--alert-warning-outline);
+}
+
+.toast-info{
+    background-color: var(--alert-info);
+}
+
+.toast-info > span:first-child{
+    color: var(--alert-info-outline);
+}
+
+.toast-success{
+    background-color: var(--alert-success);
+}
+
+.toast-success > span:first-child{
+    color: var(--alert-success-outline);
+}
+
+.toast-error{
+    background-color: var(--alert-error);
+}
+
+.toast-error > span:first-child{
+    color: var(--alert-error-outline);
+}
+
+.material-icons-outlined{
+    margin-right: 1rem;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.toast-dismiss{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.toast-dismiss:hover{
+    border: 1px solid var(--light-raisin-black);
+    border-radius: 0.3rem;
+}

@@ -15,6 +15,7 @@
 @import '/documentation/documentation.css';
 @import '/components/header/header.css';
 @import '/components/list/list.css';
+@import '/components//toast/toast.css';
 
 :root{
     --alert-error: #f5c0c6;
