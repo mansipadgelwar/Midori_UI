@@ -41,11 +41,16 @@
             <li class="side_links"><a href="#Badge">Badge</a></li>
             <li class="side_links"><a href="#Button">Button</a></li>
             <li class="side_links"><a href="#Card">Card</a></li>
-            <li class="side_links"><a href="#Navigation">Navigation</a></li>
+            <li class="side_links"><a href="#Grid">Grid</a></li>
             <li class="side_links"><a href="#Input">Input</a></li>
             <li class="side_links"><a href="#Image">Image</a></li>
+            <li class="side_links"><a href="#List">List</a></li>
+            <li class="side_links"><a href="#Modal">Modal</a></li>
+            <li class="side_links"><a href="#Navigation">Navigation</a></li>
+            <li class="side_links"><a href="#Rating">Rating</a></li>
             <li class="side_links"><a href="#Slider">Slider</a></li>
             <li class="side_links"><a href="#Text-utility">Text Utility</a></li>
+            <li class="side_links"><a href="#Toast">Toast</a></li>
           </ul>
         </div>
       </aside>
@@ -755,6 +760,206 @@
             </div>
           </div>
         </div>
+
+        <div id="Toast">
+          <div class="description-container">
+            <h1 class="component-heading">Toast</h1>
+            <p class="component-description">
+              Toast is mostly used to show feedback message. 
+              Snackbar is to used show message that need user action
+            </p>
+          </div>          
+          <div class="description-container">
+            <div class="toast-container">
+              <div class="toast toast-error">
+                  <span class="material-icons-outlined">error_outline</span>
+                  <p> oops ! You are not logged in.</p>
+                  <button class="toast-dismiss">
+                      <span class="material-icons">close</span>
+                  </button>
+                </div>
+                <div class="toast toast-success">
+                  <span class="material-icons-outlined">check_circle</span>
+                  <p>Success ! Product added.</p>
+                  <button class="toast-dismiss">
+                      <span class="material-icons">close</span>
+                  </button>
+                </div>
+                <div class="toast toast-warning">
+                  <span class="material-icons-outlined">report_problem</span>
+                  <p>Seems your coupon is about to expire.</p>
+                  <button class="toast-dismiss">
+                     <span class="material-icons">close</span>
+                  </button>
+                </div>
+                <div class="toast toast-info">
+                  <span class="material-icons-outlined">info</span>
+                  <p>Product is currently out of stock.</p>
+                  <button class="toast-dismiss">
+                      <span class="material-icons">close</span>
+                  </button>
+                </div>
+              </div>
+             
+          </div>
+          <div class="code-snippet-display">
+            <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=one-light&wt=none&l=javascript&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522toast-container%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522toast%2520toast-error%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons-outlined%2522%253Eerror_outline%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253E%2520oops%2520%21%2520You%2520are%2520not%2520logged%2520in.%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522toast-dismiss%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons%2522%253Eclose%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522toast%2520toast-success%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons-outlined%2522%253Echeck_circle%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253ESuccess%2520%21%2520Product%2520added.%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522toast-dismiss%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons%2522%253Eclose%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522toast%2520toast-warning%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons-outlined%2522%253Ereport_problem%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253ESeems%2520your%2520coupon%2520is%2520about%2520to%2520expire.%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522toast-dismiss%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons%2522%253Eclose%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522toast%2520toast-info%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons-outlined%2522%253Einfo%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253EProduct%2520is%2520currently%2520out%2520of%2520stock.%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522toast-dismiss%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons%2522%253Eclose%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E"
+            style="border:0; transform: scale(1); overflow:hidden;" sandbox="allow-scripts allow-same-origin">
+          </iframe>
+          </div>
+        </div>        
+        
+        <div id="List">
+          <div class="description-container">
+            <h1 class="component-heading">List</h1>
+            <p class="component-description">
+              Lists can be used at so many places, navigation bar, stacked notifications, article pages, etc.
+            </p>
+          </div>          
+          <div class="description-container">
+            <h2 class="component-heading">Simple lists</h2>
+            <div class="description-container">
+              <div>
+                <ul>
+                   <li class="simple_list">Simple List 1</li>
+                   <li class="simple_list">Simple List 2</li>
+                   <li class="simple_list">Simple List 3</li>
+                   <li class="simple_list">Simple List 4</li>
+                </ul>
+              </div>
+            </div>     
+          </div>
+          <div class="code-snippet-display">
+            <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=one-light&wt=none&l=javascript&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522toast-container%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522toast%2520toast-error%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons-outlined%2522%253Eerror_outline%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253E%2520oops%2520%21%2520You%2520are%2520not%2520logged%2520in.%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522toast-dismiss%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons%2522%253Eclose%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522toast%2520toast-success%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons-outlined%2522%253Echeck_circle%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253ESuccess%2520%21%2520Product%2520added.%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522toast-dismiss%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons%2522%253Eclose%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522toast%2520toast-warning%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons-outlined%2522%253Ereport_problem%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253ESeems%2520your%2520coupon%2520is%2520about%2520to%2520expire.%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522toast-dismiss%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons%2522%253Eclose%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522toast%2520toast-info%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons-outlined%2522%253Einfo%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253EProduct%2520is%2520currently%2520out%2520of%2520stock.%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522toast-dismiss%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons%2522%253Eclose%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E"
+            style="border:0; transform: scale(1); overflow:hidden;" sandbox="allow-scripts allow-same-origin">
+          </iframe>
+          </div>
+          <div class="description-container">
+            <h2 class="component-heading">Stacked lists</h2>
+            <div class="description-container">
+              <div class="stacked_list_container">
+                <ul>
+                  <li class="stacked_list">
+                     <img src="/images/avatar_1.jpg" alt="avatar" class="avatar avatar-sm">
+                      Notification 1
+                  </li>
+                  <li class="stacked_list">
+                      <img src="/images/avatar_2.jpg" alt="avatar" class="avatar avatar-sm">
+                       Notification 2
+                  </li>
+                  <li class="stacked_list">
+                      <img src="/images/avatar_3.jpg" alt="avatar" class="avatar avatar-sm">
+                      Notification 3
+                  </li>
+                  <li class="stacked_list">
+                      <img src="/images/avatar_4.jpg" alt="avatar" class="avatar avatar-sm">
+                      Notification 4
+                  </li>
+                </ul>
+              </div>
+            </div>     
+          </div>
+          <div class="code-snippet-display">
+            <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=one-light&wt=none&l=javascript&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522toast-container%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522toast%2520toast-error%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons-outlined%2522%253Eerror_outline%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253E%2520oops%2520%21%2520You%2520are%2520not%2520logged%2520in.%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522toast-dismiss%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons%2522%253Eclose%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522toast%2520toast-success%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons-outlined%2522%253Echeck_circle%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253ESuccess%2520%21%2520Product%2520added.%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522toast-dismiss%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons%2522%253Eclose%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522toast%2520toast-warning%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons-outlined%2522%253Ereport_problem%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253ESeems%2520your%2520coupon%2520is%2520about%2520to%2520expire.%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522toast-dismiss%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons%2522%253Eclose%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522toast%2520toast-info%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons-outlined%2522%253Einfo%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253EProduct%2520is%2520currently%2520out%2520of%2520stock.%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522toast-dismiss%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons%2522%253Eclose%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E"
+            style="border:0; transform: scale(1); overflow:hidden;" sandbox="allow-scripts allow-same-origin">
+          </iframe>
+          </div>
+        </div>  
+        
+        <div id="Rating">
+          <div class="description-container">
+            <h1 class="component-heading">Rating</h1>
+            <p class="component-description">
+              Rating components can be used as read-only badge or in reviews section. 
+              Can be used in reviews section as form too.
+            </p>
+          </div>          
+          <div class="description-container">
+            <div class="rating-container">
+              <div class="rating-number">3</div>
+              <div class="rating-icon">
+                  <span class="material-icons">
+                  star
+                  </span>
+              </div>
+          </div>             
+          </div>
+          <div class="code-snippet-display">
+            <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=one-light&wt=none&l=javascript&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522toast-container%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522toast%2520toast-error%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons-outlined%2522%253Eerror_outline%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253E%2520oops%2520%21%2520You%2520are%2520not%2520logged%2520in.%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522toast-dismiss%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons%2522%253Eclose%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522toast%2520toast-success%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons-outlined%2522%253Echeck_circle%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253ESuccess%2520%21%2520Product%2520added.%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522toast-dismiss%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons%2522%253Eclose%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522toast%2520toast-warning%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons-outlined%2522%253Ereport_problem%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253ESeems%2520your%2520coupon%2520is%2520about%2520to%2520expire.%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522toast-dismiss%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons%2522%253Eclose%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522toast%2520toast-info%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons-outlined%2522%253Einfo%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253EProduct%2520is%2520currently%2520out%2520of%2520stock.%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522toast-dismiss%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons%2522%253Eclose%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E"
+            style="border:0; transform: scale(1); overflow:hidden;" sandbox="allow-scripts allow-same-origin">
+          </iframe>
+          </div>
+        </div>  
+        
+        <div id="Modal">
+          <div class="description-container">
+            <h1 class="component-heading">Modal</h1>
+            <p class="component-description">
+              Modals are positioned over everything else in the document and remove scroll from the page.
+            </p>
+          </div>          
+          <div class="description-container">
+            <div class="modal-container">
+              <div class="modal">
+                <h3 class="h3">Midori would like to access your location</h2>
+                <div class="modal-button-container">
+                   <button class="btn btn-text">Don't Allow</button>
+                   <button class="btn btn-text">Allow</button>
+                </div>
+              </div>  
+            </div>          
+          </div>
+          <div class="code-snippet-display">
+            <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=one-light&wt=none&l=javascript&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522toast-container%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522toast%2520toast-error%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons-outlined%2522%253Eerror_outline%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253E%2520oops%2520%21%2520You%2520are%2520not%2520logged%2520in.%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522toast-dismiss%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons%2522%253Eclose%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522toast%2520toast-success%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons-outlined%2522%253Echeck_circle%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253ESuccess%2520%21%2520Product%2520added.%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522toast-dismiss%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons%2522%253Eclose%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522toast%2520toast-warning%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons-outlined%2522%253Ereport_problem%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253ESeems%2520your%2520coupon%2520is%2520about%2520to%2520expire.%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522toast-dismiss%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons%2522%253Eclose%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522toast%2520toast-info%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons-outlined%2522%253Einfo%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253EProduct%2520is%2520currently%2520out%2520of%2520stock.%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522toast-dismiss%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons%2522%253Eclose%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E"
+            style="border:0; transform: scale(1); overflow:hidden;" sandbox="allow-scripts allow-same-origin">
+          </iframe>
+          </div>
+        </div>  
+
+        <div id="Grid">
+          <div class="description-container">
+            <h1 class="component-heading">Grid</h1>
+            <p class="component-description">
+              Use grid when you want sections in view. Check below some examples 
+            </p>
+          </div>          
+          <div class="description-container">
+            <h2 class="component-heading">Grid-2: two items in a grid </h2> 
+            <div class="description-container">
+              <div class="grid-container grid-2">
+                <div class="grid-child"> <img src="https://picsum.photos/200" alt="responsive_img" ></div>
+                <div class="grid-child"> <img src="https://picsum.photos/200" alt="responsive_img" ></div>
+              </div>  
+            </div>     
+          </div>
+          <div class="code-snippet-display">
+            <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=one-light&wt=none&l=javascript&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522toast-container%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522toast%2520toast-error%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons-outlined%2522%253Eerror_outline%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253E%2520oops%2520%21%2520You%2520are%2520not%2520logged%2520in.%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522toast-dismiss%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons%2522%253Eclose%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522toast%2520toast-success%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons-outlined%2522%253Echeck_circle%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253ESuccess%2520%21%2520Product%2520added.%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522toast-dismiss%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons%2522%253Eclose%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522toast%2520toast-warning%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons-outlined%2522%253Ereport_problem%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253ESeems%2520your%2520coupon%2520is%2520about%2520to%2520expire.%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522toast-dismiss%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons%2522%253Eclose%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522toast%2520toast-info%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons-outlined%2522%253Einfo%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253EProduct%2520is%2520currently%2520out%2520of%2520stock.%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522toast-dismiss%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons%2522%253Eclose%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E"
+            style="border:0; transform: scale(1); overflow:hidden;" sandbox="allow-scripts allow-same-origin">
+          </iframe>
+          </div>
+
+          <div class="description-container">
+            <h2 class="component-heading">Grid-3: three items </h2> 
+            <div class="description-container">
+              <div class="grid-container grid-3">
+                <div class="grid-child"> <img src="https://picsum.photos/200" alt="responsive_img" ></div>
+                <div class="grid-child"> <img src="https://picsum.photos/200" alt="responsive_img" ></div>
+                <div class="grid-child"> <img src="https://picsum.photos/200" alt="responsive_img" ></div>
+            </div>    
+            </div>     
+          </div>
+          <div class="code-snippet-display">
+            <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=one-light&wt=none&l=javascript&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522toast-container%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522toast%2520toast-error%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons-outlined%2522%253Eerror_outline%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253E%2520oops%2520%21%2520You%2520are%2520not%2520logged%2520in.%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522toast-dismiss%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons%2522%253Eclose%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522toast%2520toast-success%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons-outlined%2522%253Echeck_circle%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253ESuccess%2520%21%2520Product%2520added.%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522toast-dismiss%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons%2522%253Eclose%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522toast%2520toast-warning%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons-outlined%2522%253Ereport_problem%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253ESeems%2520your%2520coupon%2520is%2520about%2520to%2520expire.%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522toast-dismiss%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons%2522%253Eclose%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522toast%2520toast-info%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons-outlined%2522%253Einfo%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253EProduct%2520is%2520currently%2520out%2520of%2520stock.%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522toast-dismiss%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons%2522%253Eclose%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E"
+            style="border:0; transform: scale(1); overflow:hidden;" sandbox="allow-scripts allow-same-origin">
+          </iframe>          
+        </div>  
       </main>
     </div>
   </div>
