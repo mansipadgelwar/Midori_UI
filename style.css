@@ -18,6 +18,7 @@
 @import '/components//toast/toast.css';
 @import '/components/rating/rating.css';
 @import '/components/modal/modal.css';
+@import '/components/grid/grid.css';
 
 :root{
     --alert-error: #f5c0c6;
