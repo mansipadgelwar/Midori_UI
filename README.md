@@ -17,6 +17,12 @@
 8. Image
 9. Slider
 10. Text Utility
+11. Toast
+12. List
+13. Modal
+14. Ecomm Rating
+15. Grids
+
 
 ## Preview
 ![Home Page](/assets/home_page.png)
