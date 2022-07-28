@@ -411,7 +411,7 @@
         <div class="description-container">
           <h2 class="component-heading">Cards with text overlay</h2>
           <div class="component-container">
-            <article class="vertical-card">
+            <article class="vertical-card text-overlay-wrapper">
               <h1 class="text-overlay">OUT OF STOCK</h1>
               <div class="text_overlay-card">
                 <span class="material-icons-outlined icon">
@@ -680,9 +680,14 @@
             <p class="component-description">
               Modals are positioned over everything else in the document and remove scroll from the page.
             </p>
-          </div>          
-          <div class="description-container">
+          </div>  
+          <button class="btn btn-cta" id="modal-btn">Click me!</button>         
+          <div class="description-container modal-page">
+            <div class="modal-wrapper">
             <div class="modal-container">
+              <span class="material-icons icon-close">
+                cancel
+            </span>            
               <div class="modal">
                 <h3 class="h3">Midori would like to access your location</h2>
                 <div class="modal-button-container">
@@ -691,6 +696,7 @@
                 </div>
               </div>  
             </div>          
+          </div>
           </div>
           <div class="code-snippet-display">
             <iframe
@@ -972,5 +978,6 @@
       </main>
     </div>
   </div>
+  <script src="../script.js"></script>
 </body>
 </html>
